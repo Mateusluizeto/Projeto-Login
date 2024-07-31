@@ -38,8 +38,8 @@ section#login{
     height: 500px;
     border-radius: 20px;
 
-    transition: width 0.3s, height 0.3s;
-    transition-timing-function: ease;
+    transition: width 0.3s, height 0.3s; /*Essa configuração é para faazer uma transformação de largura e altura mais animada*/
+    transition-timing-function: ease; /*Essa configuração é para fazer a transformação ficar mais suave e fluida*/
 }
 
 section#login > div#imagem {
@@ -53,4 +53,13 @@ section#login > div#imagem {
 section#login > div#formulario{
     display: block;
     padding: 10px;
+}
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    font-size: 0.8em;
 }

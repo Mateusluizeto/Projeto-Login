@@ -17,13 +17,13 @@ Telas Grandes: acima de 1200px
         width: 80vw;
     }
     section#login > div#imagem{
-        float: left;
+        float: left; /*Essa connfiguração fala em que lado a div vai estar*/
         width: 30%;
         height: 100%;
     }
 
     section#login > div#formulario{
-        float: right;
+        float: right; /*Essa connfiguração fala em que lado a div vai estar*/
         width: 70%;
     }
 }
@@ -36,13 +36,23 @@ Telas Grandes: acima de 1200px
     section#login{
         width: 950px;
     }
+
     section#login > div#imagem{
-        float: right;
-        width: 50%;
-        height: 100%;
+        float: right; /*Essa connfiguração fala em que lado a div vai estar*/
+        width: 50%; /*Esse é a largura que ela vai preencher da section*/
+        height: 100%; /*Essa é a altura que ela vai preencher da section*/
     }
+
     section#login > div#formulario{
-        float: left;
-        width: 50%;
+        float: left; /*Essa connfiguração fala em que lado a div vai estar*/
+        width: 50%; /*Essa é a altura que ela vai preencher da section*/
+    }
+
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+
+    div#formulario > p {
+        font-size: 1.2em;
     }
 }
