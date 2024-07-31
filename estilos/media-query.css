@@ -15,6 +15,7 @@ Telas Grandes: acima de 1200px
     }
     section#login{
         width: 80vw;
+        height: 280px;
     }
     section#login > div#imagem{
         float: left; /*Essa connfiguração fala em que lado a div vai estar*/
@@ -28,13 +29,14 @@ Telas Grandes: acima de 1200px
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) { /*Configuração para pc*/
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
 
     section#login{
         width: 950px;
+        height: 335px;
     }
 
     section#login > div#imagem{
@@ -54,5 +56,6 @@ Telas Grandes: acima de 1200px
 
     div#formulario > p {
         font-size: 1.2em;
+        margin: 10px 0px;
     }
 }
